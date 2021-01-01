@@ -1178,3 +1178,20 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+
+
+#cd,#home,#page{
+  text-align: center;
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #002549, 0 0 5px #002549, 0 0 12px #002549, 0 0 14px #002549, 0 0 15px #002549;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 5px rgb(0, 0, 0), 0 0 10px #002549, 0 0 15px #002549, 0 0 20px #002549, 0 0 25px #002549, 0 0 30px #002549;
+  }
+}
