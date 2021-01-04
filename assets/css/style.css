@@ -1181,7 +1181,7 @@ section .container {
 
 
 
-#cd,#home,#page{
+#home,#page{
   text-align: center;
   color: #fff;
   animation: glow 1s ease-in-out infinite alternate;
@@ -1192,6 +1192,10 @@ section .container {
     text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #002549, 0 0 5px #002549, 0 0 12px #002549, 0 0 14px #002549, 0 0 15px #002549;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 5px rgb(0, 0, 0), 0 0 10px #002549, 0 0 15px #002549, 0 0 20px #002549, 0 0 25px #002549, 0 0 30px #002549;
+    text-shadow: 0 0 5px #002549, 0 0 5px rgb(0, 0, 0), 0 0 10px #002549, 0 0 15px #002549, 0 0 20px #002549, 0 0 25px #002549, 0 0 30px #002549;
   }
+}
+
+#cd{
+  color:#0082fc;
 }
